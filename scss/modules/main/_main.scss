@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+    justify-content: center;
+    background: skyblue;
+
+    &__portada {
+        width: 50%;
+    }
+
+    &__content {
+        justify-content: center;
+        color: $fisrtcolor;
+    }
+}

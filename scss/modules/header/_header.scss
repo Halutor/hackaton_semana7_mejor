@@ -1,17 +1,29 @@
 .header {
     display: flex;
+    justify-content: space-between;
     &__logo {
+        
     }
 
     &__menu {
+        width: 30%;
     }
 
     &__containerItems {
+        display: flex;
+        justify-content: space-between;
     }
 
     &__item {
+        list-style: none;
     }
 
     &__link {
+        text-decoration: none;
+        color: $fifhtcolor;
+    }
+
+    &--active {
+        font-weight: bold;
     }
 }
